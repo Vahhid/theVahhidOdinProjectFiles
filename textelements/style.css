@@ -2,7 +2,8 @@
     margin:0;
     background-color: black;
     color:white;
-    border: dashed 2px green;
+    /*border: dashed 2px green;*/
+    box-sizing:border-box;
 }
 .one {
     /*display: none;
@@ -11,4 +12,44 @@
 }
 .horizontal {
     display: inline;
+}
+#main {
+    max-width:700px;
+    margin: 1 auto;
+    position:relative;   
+}
+#main p{
+    display:inline-block;
+    margin:0 auto;
+    background-color: white;
+    color:black;
+    max-width:300px;
+    height:200px;
+    display:inline-box;
+    position: relative;
+}
+.first {
+    position: relative;
+}
+.second {
+    position: relative;
+    top:-50px;
+    left:30px;
+}
+.fixedTocorner {
+    border: solid 5px yellow;
+    max-width:300px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    background-color: green;
+}
+.third {
+    position:absolute;
+    top:150px;
+    right:300px;
+    width:100px;
+    height: 100px;
+    color:blue;
+
 }

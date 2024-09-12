@@ -1,6 +1,14 @@
-*
-{
+* {
     margin:0;
     background-color: black;
     color:white;
+    border: dashed 2px green;
+}
+.one {
+    /*display: none;
+    visibility: hidden;
+    */
+}
+.horizontal {
+    display: inline;
 }

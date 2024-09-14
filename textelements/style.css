@@ -33,6 +33,7 @@ nav ul li{
     margin: 5px;
 
     margin-left: 200px;
+    overflow:auto;
 
 }
 footer {
@@ -42,4 +43,8 @@ footer {
     left:0;
     background-color: black;
     color:green
+}
+img {
+    width: 50%;
+    float: right;
 }

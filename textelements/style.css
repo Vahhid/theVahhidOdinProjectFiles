@@ -35,3 +35,11 @@ nav ul li{
     margin-left: 200px;
 
 }
+footer {
+    border: 5px solid blue;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    background-color: black;
+    color:green
+}
